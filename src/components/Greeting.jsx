@@ -2,24 +2,8 @@ import React, {useState} from 'react';
 
 const Greeting = props => {
   const [name, setName] = useState();
-  const [inputs, setInputs] = useState({});
 
 
-  const handleChange = event => {
-    event.persist();
-    setInputs({
-      ...inputs,
-      [event.target.name]: event.target.value
-    });
-  };
- 
-  const handleSubmit = event => {
-    event.preventDefault();
-    setName([
-      ...name,
-      inputs.name
-    ]);
-  };
 
   return(
     <>
