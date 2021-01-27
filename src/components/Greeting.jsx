@@ -1,28 +1,7 @@
-import React, {useState} from 'react';
+import React from 'react';
 
 const Greeting = props => {
-  const [name, setName] = useState();
-  const [inputs, setInputs] = useState({});
 
-const setName = event => {
-  
-}
-
-  const handleChange = event => {
-    event.persist();
-    setInputs({
-      ...inputs,
-      [event.target.name]: event.target.value
-    });
-  };
- 
-  const handleSubmit = event => {
-    event.preventDefault();
-    setName([
-      ...name,
-      inputs.name
-    ]);
-  };
 
   return(
     <>
