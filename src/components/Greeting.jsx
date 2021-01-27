@@ -4,7 +4,9 @@ const Greeting = props => {
   const [name, setName] = useState();
   const [inputs, setInputs] = useState({});
 
-
+const setName = event => {
+  
+}
 
   const handleChange = event => {
     event.persist();
