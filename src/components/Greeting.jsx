@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 
 const Greeting = props => {
+  const [name, setName] = useState();
   const [inputs, setInputs] = useState({});
 
-  const {name, setName} = props;
 
   const handleChange = event => {
     event.persist();
