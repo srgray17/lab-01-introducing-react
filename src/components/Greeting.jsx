@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-const addGreeting = props => {
+const Greeting = props => {
   const [inputs, setInputs] = useState({});
 
   const {name, setName} = props;
@@ -28,4 +28,4 @@ const addGreeting = props => {
   );
 };
 
-export default addGreeting;
+export default Greeting;

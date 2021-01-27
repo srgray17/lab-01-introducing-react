@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Greeting from './components/addGreeting'
+import Greeting from './components/Greeting';
 
 const App = () => {
   return (
